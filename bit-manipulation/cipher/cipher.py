@@ -1,7 +1,8 @@
 from redef_input import *
 from typing import List
 
-n, k = [int(x.strip()) for x in input().split(' ')] # type: int, int
+
+n, k = get_delimited_int_list()  # type: int, int
 s = ''.join(list(input().strip()))
 
 
